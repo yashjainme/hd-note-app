@@ -12,7 +12,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:5173', // for local dev
-  'https://hd-note-appx.vercel.app/' // replace with actual Vercel domain
+  'https://hd-note-appx.vercel.app' // replace with actual Vercel domain
 ];
 
 app.use(cors({
