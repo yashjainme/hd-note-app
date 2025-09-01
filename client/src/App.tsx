@@ -7,12 +7,6 @@ import Dashboard from './pages/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 import { useAuth } from './hooks/useAuth';
 
-// Component to handle redirection for authenticated users
-const AuthRedirect = () => {
-  const { user, isLoading } = useAuth();
-  if (isLoading) return <div>Loading...</div>; // Or a spinner
-  return user ? <Navigate to="/dashboard" /> : <SignIn />;
-};
 
 function App() {
   return (
