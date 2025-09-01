@@ -94,7 +94,7 @@ const SignUp = () => {
               type="date"
               value={formData.dob}
               onChange={handleInputChange}
-              iconSrc="src/assets/calendar-icon.svg" // 👈 custom left-side calendar icon
+              iconSrc="calendar-icon.svg" // 👈 custom left-side calendar icon
               placeholder="11 December 1997"
             />
             <InputField

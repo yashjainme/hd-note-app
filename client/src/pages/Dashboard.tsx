@@ -60,7 +60,7 @@ const Dashboard = () => {
             <div className="w-full max-w-md mx-auto bg-white rounded-lg shadow-md p-6">
                 <div className="flex justify-between items-center mb-6">
                     <div className="flex items-center gap-3">
-                        <img src="src/assets/logo-icon.svg" alt="Logo" className="w-7 h-7" />
+                        <img src="logo-icon.svg" alt="Logo" className="w-7 h-7" />
                         <h1 className="text-xl font-bold">Dashboard</h1>
                     </div>
                     <button onClick={logout} className="text-sm cursor-pointer font-semibold text-brand-blue hover:underline">
@@ -105,7 +105,7 @@ const Dashboard = () => {
     className="ml-4 flex-shrink-0 self-start"
   >
     <img
-      src="src/assets/delete-icon.svg"
+      src="delete-icon.svg"
       alt="Delete"
       className="w-5 h-5 cursor-pointer"
     />
