@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+
+@layer utilities {
+  .brand-blue {
+    color: #3D8BFF;
+  }
+
+  .bg-brand-blue {
+    background-color: #3D8BFF;
+  }
+
+  .light-gray {
+    color: #F0F0F0;
+  }
+
+  .bg-light-gray {
+    background-color: #F0F0F0;
+  }
+
+  .text-primary {
+    color: #212121;
+  }
+
+  .text-secondary {
+    color: #666666;
+  }
+
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* Hide default calendar icon for date inputs */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
